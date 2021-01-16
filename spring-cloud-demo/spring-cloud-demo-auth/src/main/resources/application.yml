@@ -1,0 +1,24 @@
+spring:
+  redis:
+    host: 127.0.0.1
+  application:
+    #    注册到eureka中的名字
+    name: auth-server
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/shixun?characterEncoding=utf-8&serverTimezone=UTC
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: sc198831430
+server:
+  servlet:
+    #    根路径
+    context-path: /
+  port: 8001
+eureka:
+  client:
+    service-url:
+      defaultZone: http://user:admin@127.0.0.1:8888/eureka
+mybatis:
+  mapper-locations: mapper/*Mapper.xml
+
+
