@@ -1,11 +1,5 @@
 package com.demo.commons.domain;
 
-/**
- * @author: DxlinY
- * @apiNote:
- * @date: 2021/1/14
- * @time: 10:10
- */
 public class Commons {
 
     /**

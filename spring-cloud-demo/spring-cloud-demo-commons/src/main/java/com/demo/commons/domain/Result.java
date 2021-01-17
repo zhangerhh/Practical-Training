@@ -4,12 +4,6 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-/**
- * @author: DxlinY
- * @apiNote: 基础返回对象
- * @date: 2021/1/14
- * @time: 9:59
- */
 @NoArgsConstructor
 @AllArgsConstructor
 @Data

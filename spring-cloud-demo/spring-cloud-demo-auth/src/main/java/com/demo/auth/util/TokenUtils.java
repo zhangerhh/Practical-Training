@@ -12,12 +12,6 @@ import org.springframework.stereotype.Component;
 import java.util.Base64;
 import java.util.concurrent.TimeUnit;
 
-/**
- * @author: DxlinY
- * @apiNote: 用于token的工具类
- * @date: 2021/1/14
- * @time: 9:55
- */
 @Component
 public class TokenUtils {
 

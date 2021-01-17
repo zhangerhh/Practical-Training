@@ -11,14 +11,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-/**
- * @author: DxlinY
- * @apiNote:
- * @date: 2021/1/14
- * @time: 15:45
- */
 @Component
 public class TokenFilter extends OncePerRequestFilter {
+    /** 请求过滤 **/
     @Override
     protected void doFilterInternal(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse, FilterChain filterChain) throws ServletException, IOException {
         String url = httpServletRequest.getRequestURL().toString();

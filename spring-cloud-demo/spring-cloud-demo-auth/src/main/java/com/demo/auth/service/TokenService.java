@@ -2,12 +2,6 @@ package com.demo.auth.service;
 
 import com.demo.commons.domain.Token;
 
-/**
- * @author: DxlinY
- * @apiNote:
- * @date: 2021/1/14
- * @time: 14:53
- */
 public interface TokenService {
 
 

@@ -15,12 +15,6 @@ import org.springframework.stereotype.Component;
 
 import javax.servlet.http.HttpServletRequest;
 
-/**
- * @author: DxlinY
- * @apiNote:
- * @date: 2021/1/15
- * @time: 8:54
- */
 @Component
 public class AuthZuulFilter extends ZuulFilter {
 

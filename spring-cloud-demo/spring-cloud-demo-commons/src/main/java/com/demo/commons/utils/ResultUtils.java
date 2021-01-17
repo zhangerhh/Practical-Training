@@ -3,12 +3,6 @@ package com.demo.commons.utils;
 import com.demo.commons.domain.Result;
 import com.demo.commons.domain.enums.SystemEnum;
 
-/**
- * @author: DxlinY
- * @apiNote:
- * @date: 2021/1/14
- * @time: 15:14
- */
 public class ResultUtils {
 
     /**

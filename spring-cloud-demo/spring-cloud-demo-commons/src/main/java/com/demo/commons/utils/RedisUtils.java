@@ -8,12 +8,6 @@ import org.springframework.stereotype.Component;
 
 import java.util.concurrent.TimeUnit;
 
-/**
- * @author: DxlinY
- * @apiNote: 用于redis 的工具类
- * @date: 2021/1/14
- * @time: 9:48
- */
 @Component
 public class RedisUtils {
 

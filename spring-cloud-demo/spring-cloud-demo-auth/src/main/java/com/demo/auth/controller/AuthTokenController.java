@@ -9,21 +9,14 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-/**
- * @author: DxlinY
- * @apiNote:
- * @date: 2021/1/14
- * @time: 15:07
- */
 @RestController
 @RequestMapping("/auth")
 public class AuthTokenController {
     @Autowired
     private TokenService tokenService;
-
+    /** 登录认证 **/
     @RequestMapping(value = "/token/password", method = {RequestMethod.GET, RequestMethod.POST},produces = {"application/json;charset=utf-8"})
     public Result passwordGrantType(String username, String password) {
-
         try {
             Token token = tokenService.authLogin(username, password);
             return ResultUtils.success(token);
@@ -33,6 +26,7 @@ public class AuthTokenController {
         }
     }
 
+    /** token刷新 **/
     @RequestMapping(value = "/token/refresh_token", method = {RequestMethod.GET, RequestMethod.POST})
     public Result refreshToken(String accessToken, String refreshToken) {
         Token token = null;

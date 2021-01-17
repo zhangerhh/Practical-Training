@@ -7,12 +7,6 @@ import lombok.NoArgsConstructor;
 import java.io.Serializable;
 import java.util.List;
 
-/**
- * @author: DxlinY
- * @apiNote:
- * @date: 2021/1/14
- * @time: 10:40
- */
 @Data
 @NoArgsConstructor
 @AllArgsConstructor

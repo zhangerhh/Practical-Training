@@ -6,12 +6,6 @@ import lombok.NoArgsConstructor;
 
 import java.io.Serializable;
 
-/**
- * @author: DxlinY
- * @apiNote: token基础类
- * @date: 2021/1/14
- * @time: 9:58
- */
 @Data
 @NoArgsConstructor
 @AllArgsConstructor

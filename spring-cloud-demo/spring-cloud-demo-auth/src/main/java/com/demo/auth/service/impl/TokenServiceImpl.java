@@ -12,12 +12,6 @@ import org.springframework.stereotype.Service;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * @author: DxlinY
- * @apiNote:
- * @date: 2021/1/14
- * @time: 14:56
- */
 @Service
 public class TokenServiceImpl implements TokenService {
 

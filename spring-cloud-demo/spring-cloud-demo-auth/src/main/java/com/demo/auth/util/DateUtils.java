@@ -2,12 +2,6 @@ package com.demo.auth.util;
 
 import java.text.SimpleDateFormat;
 
-/**
- * @author: DxlinY
- * @apiNote:
- * @date: 2021/1/14
- * @time: 10:25
- */
 public class DateUtils {
 
 

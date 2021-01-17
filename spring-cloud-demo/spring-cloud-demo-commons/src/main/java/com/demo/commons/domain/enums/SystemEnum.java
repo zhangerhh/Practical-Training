@@ -2,12 +2,6 @@ package com.demo.commons.domain.enums;
 
 import com.demo.commons.domain.Commons;
 
-/**
- * @author: DxlinY
- * @apiNote:
- * @date: 2021/1/14
- * @time: 10:02
- */
 public enum SystemEnum {
 
     SYSTEM_AUTH_SUCCESS(200, "token获取成功"),
