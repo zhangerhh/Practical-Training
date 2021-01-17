@@ -22,6 +22,6 @@ zuul:
     daoServer:
       path: /daoServer/**
       service-id: dao-server
-  ignored-services: "*"
-  prefix: /tchmanage
+  ignored-services: "*"  #不能使用这个访问
+  prefix: /tchmanage    #设置公共的前缀
 

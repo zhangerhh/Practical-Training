@@ -13,9 +13,12 @@
     <sql id="AllArgs">
         select ID id,USER_NAME username,REAL_NAME realName,PASSWORD password,ROLE role from CLOUD_USER WHERE
     </sql>
-
     <select id="login" resultType="com.demo.commons.domain.User">
         <include refid="AllArgs"/>
         USER_NAME = #{username}
+    </select>
+
+    <select id="findRoleByUser" parameterType="String" resultType="String">
+        select ROLE from CLOUD_USER where USER_NAME = #{username}
     </select>
 </mapper>

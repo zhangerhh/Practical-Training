@@ -20,6 +20,9 @@ public interface UserMapper {
      */
     User login(String username);
 
+    /** 查找用户角色 **/
+    String findRoleByUser(String username);
+
 }
 
 
